@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime - Comedy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="task2.css"/>
+</head>
+<body>
+    <button id="menu"><i class="fas fa-bars"></i></button>
+    <button id="search"><i class="fa-brands fa-searchengin"></i></button>
+    <div id="search-box" class="search-box">
+        <input type="text" placeholder="Search Anime..." />
+        <button class="search-button"><span class="arrow">&#10148;</span></button>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="welcome.html">Home</a></li>
+            <li><div id="category">
+                <label for="categories">Categories</label>
+                <select id="categories">
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="horror">Horror</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="sports">Sports</option>
+                </select>
+            </div></li>
+            <li><a href="task2.html">Top Anime</a></li>
+            <li><a href="latest.html">Latest Anime <span id="new">[NEW]</span></a></li>
+            <li></li>
+            <li id="copyright">&copy; Midanka Lahon</li>
+        </ul>
+    </nav>
+    <div class="anime">
+        <div id="c1">
+            <h1>Gintama</h1>
+            <div class="anime-display">
+                <img src="Pics/gintama.jpg"/>
+                <p id="description">
+                    Gintama is a Japanese anime and manga series created by Hideaki Sorachi. Set in an alternate-history late Edo period, where humanity is attacked by aliens called Amanto, the story follows Gintoki Sakata, a samurai who works as a freelancer alongside his friends Shinpachi Shimura and Kagura. The series is known for its humor, which ranges from slapstick to satire, and its ability to balance comedy with serious and emotional storylines.
+                </p>
+            </div>
+        </div>
+        <div id="c2">
+            <h1>One Punch Man</h1>
+            <div class="anime-display">
+                <img src="Pics/one punch man.jpg"/>
+                <p id="description">
+                    One Punch Man is a Japanese anime and manga series created by ONE. It follows Saitama, a hero who can defeat any opponent with a single punch but becomes bored due to a lack of challenge. The series is known for its parody of superhero tropes and its blend of action and comedy.
+                </p>
+            </div>
+        </div>
+        <div id="c3">
+            <h1>Konosuba</h1>
+            <div class="anime-display">
+                <img src="Pics/konosuba.jpg"/>
+                <p id="description">
+                    Konosuba: God's Blessing on This Wonderful World! is a Japanese anime and light novel series written by Natsume Akatsuki. It follows Kazuma Satou, a high school student who is reincarnated into a fantasy world with MMORPG elements. Along with a dysfunctional party, he embarks on various comedic adventures.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="task2.js">
+    </script>
+</body>
+</html>

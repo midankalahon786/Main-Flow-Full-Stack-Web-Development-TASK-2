@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime - Latest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="task2.css"/>
+</head>
+<body>
+    <button id="menu"><i class="fas fa-bars"></i></button>
+    <button id="search"><i class="fa-brands fa-searchengin"></i></button>
+    <div id="search-box" class="search-box">
+        <input type="text" placeholder="Search Anime..." />
+        <button class="search-button"><span class="arrow">&#10148;</span></button>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="welcome.html">Home</a></li>
+            <li><div id="category">
+                <label for="categories">Categories</label>
+                <select id="categories">
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="horror">Horror</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="sports">Sports</option>
+                </select>
+            </div></li>
+            <li><a href="task2.html">Top Anime</a></li>
+            <li><a href="latest.html">Latest Anime <span id="new">[NEW]</span></a></li>
+            <li></li>
+            <li id="copyright">&copy; Midanka Lahon</li>
+        </ul>
+    </nav>
+    <div class="anime">
+        <div id="latest1">
+            <h1>Demon Slayer: Kimetsu no Yaiba</h1>
+            <div class="anime-display">
+                <img src="Pics/demon slayer.jpg"/>
+                <p id="description">
+                    Demon Slayer: Kimetsu no Yaiba is a Japanese anime and manga series by Koyoharu Gotouge. The story follows Tanjiro Kamado, a young boy who becomes a demon slayer after his family is slaughtered and his younger sister Nezuko is turned into a demon. The series is known for its breathtaking animation, emotional depth, and intense action sequences.
+                </p>
+            </div>
+        </div>
+        <div id="latest2">
+            <h1>Attack on Titan: The Final Season</h1>
+            <div class="anime-display">
+                <img src="Pics/attack on titan.jpg"/>
+                <p id="description">
+                    Attack on Titan: The Final Season is the concluding season of the popular anime series created by Hajime Isayama. It continues the story of Eren Yeager and his friends as they fight to uncover the truth about their world and face the titans threatening humanity's existence. The series is praised for its complex plot, character development, and stunning visuals.
+                </p>
+            </div>
+        </div>
+        <div id="latest3">
+            <h1>Jujutsu Kaisen</h1>
+            <div class="anime-display">
+                <img src="Pics/jujutsu kaisen.jpg"/>
+                <p id="description">
+                    Jujutsu Kaisen is a Japanese anime and manga series written by Gege Akutami. The story revolves around Yuji Itadori, a high school student who joins a secret organization of Jujutsu Sorcerers to eliminate Curses after he consumes a powerful Curse item. The series is acclaimed for its unique characters, exciting fight scenes, and blend of horror and action.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="task2.js">
+    </script>
+</body>
+</html>
